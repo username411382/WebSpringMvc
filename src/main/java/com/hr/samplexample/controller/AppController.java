@@ -1,16 +1,9 @@
 package com.hr.samplexample.controller;
-
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-
 /**
- * @ÃèÊö£ºÌí¼Ó¿ØÖÆÆ÷ÒÔ´¦ÀíÇëÇóÌí¼ÓÕâ¸ö¿ØÖÆÆ÷£¬¿ÉÒÔ¶ÔgetºÍpostÇëÇóÌá¹©·şÎñ¡£ @author ruihe
- * @time 2016Äê6ÔÂ21ÈÕ ÏÂÎç5:32:45
+ * @æè¿°ï¼šæ·»åŠ æ§åˆ¶å™¨ä»¥å¤„ç†è¯·æ±‚ï¼Œæ·»åŠ è¿™ä¸ªæ§åˆ¶å™¨ï¼Œå¯ä»¥å¯¹getå’Œpostè¯·æ±‚æä¾›æœåŠ¡ã€‚
+ * @author ruihe
+ * @time   2016å¹´6æœˆ21æ—¥ ä¸‹åˆ6:04:00
  */
-@Controller
-@RequestMapping("/")
 public class AppController {
 
-	
-	
 }

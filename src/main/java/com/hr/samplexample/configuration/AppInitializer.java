@@ -8,10 +8,9 @@ import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
 
-/**
- * @描述：配置初始化类
+/**閰嶇疆鍒濆鍖栫被
  * @author ruihe
- * @time 2016年6月21日 下午5:30:01
+ *
  */
 public class AppInitializer implements WebApplicationInitializer {
 

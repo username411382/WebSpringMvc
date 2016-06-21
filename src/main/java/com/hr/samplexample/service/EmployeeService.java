@@ -5,9 +5,9 @@ import java.util.List;
 import com.hr.samplexample.model.Employee;
 
 /**
- * @描述：添加服务层
+ * @鎻忚堪锛氭坊鍔犳湇鍔″眰
  * @author ruihe
- * @time   2016年6月21日 下午5:35:29
+ * @time   
  */
 public interface EmployeeService {
 	Employee findById(int id);  
