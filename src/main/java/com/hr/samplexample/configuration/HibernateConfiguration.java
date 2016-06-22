@@ -30,12 +30,12 @@ public class HibernateConfiguration {
 	private Environment environment;
 
 	@Bean
-	public LocalSessionFactoryBean sessionFactoryBean() {
-		LocalSessionFactoryBean sessionFactoryBean = new LocalSessionFactoryBean();
-		sessionFactoryBean.setDataSource(dataSource());
-		sessionFactoryBean.setPackagesToScan(new String[] { "com.hr.samplexample.model" });
-		sessionFactoryBean.setHibernateProperties(hibernateProperties());
-		return sessionFactoryBean;
+	public LocalSessionFactoryBean sessionFactory() {
+		LocalSessionFactoryBean sessionFatory = new LocalSessionFactoryBean();
+		sessionFatory.setDataSource(dataSource());
+		sessionFatory.setPackagesToScan(new String[] { "com.hr.samplexample.model" });
+		sessionFatory.setHibernateProperties(hibernateProperties());
+		return sessionFatory;
 	}
 
 	@Bean
