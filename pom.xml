@@ -18,7 +18,7 @@
 		<mockito.version>1.10.19</mockito.version>
 		<h2.version>1.4.187</h2.version>
 		<dbunit.version>2.2</dbunit.version>
-		<project.build.sourceEncoding>utf-8</project.build.sourceEncoding> 
+		<project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
 	</properties>
 
 
@@ -143,11 +143,7 @@
 			<scope>test</scope>
 		</dependency>
 
-
 	</dependencies>
-
-
-
 
 
 	<build>
